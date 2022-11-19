@@ -30,3 +30,4 @@ if not os.path.isfile("config.json"):
 else:
     print_color("config.json found in project", 51, 184, 100)
 os.system("git clone https://github.com/Ohm-Interactive/Build-Script.git")
+print_color("Installation complete!", 51, 184, 100)
