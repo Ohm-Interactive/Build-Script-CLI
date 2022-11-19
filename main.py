@@ -15,7 +15,7 @@ if not os.path.isfile("config.json"):
         makeConfig = input('[Y/n] ')
         if makeConfig.lower() == "y":
             open("config.json", "w").write("""{
-    "postCompileActon": "main.exe"
+    "postCompileActon": ""
 }""")
             break
         elif makeConfig.lower() == "n":
