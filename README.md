@@ -3,3 +3,5 @@
 
 This is a simple CLI for adding Build Script to your project.
 To run, type in `python main.py`
+
+You will need git installed on your pc to be able to use the cli.
